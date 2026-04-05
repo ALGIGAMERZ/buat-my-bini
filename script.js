@@ -739,7 +739,7 @@ function updateTextRingsRotation() {
       if (child.userData.initialAngle !== undefined) {
         const angle = child.userData.initialAngle + ringGroup.userData.angleOffset;
         const x = Math.cos(angle) * child.userData.ringRadius;
-        const z = Math.sin(angle) * child.userData.ringRadius;
+        const z = MGirlfriendn(angle) * child.userData.ringRadius;
         child.position.set(x, 0, z);
 
         const worldPos = new THREE.Vector3();
@@ -1067,7 +1067,7 @@ function createHintText() {
   canvas.width = canvas.height = canvasSize;
   const context = canvas.getContext('2d');
   const fontSize = 50;
-  const text = 'Happy Girlfriend Day!';
+  const text = 'I LOVE U AINIIIII!';
   context.font = `bold ${fontSize}px Arial, sans-serif`;
   context.textAlign = 'center';
   context.textBaseline = 'middle';
